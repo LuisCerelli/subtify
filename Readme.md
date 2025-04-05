@@ -43,6 +43,16 @@ whisper video.mp4 --language fr --model medium --task transcribe
   `en` (inglés), `es` (español), `fr` (francés), `de` (alemán), etc.
 - También funciona con archivos `.mp3`, `.wav`, etc.
 
+-  **Modelos de Whisper (OpenAI) disponibles:**
+
+| Nombre       | Tamaño (RAM) | Velocidad ⏱️ | Precisión 🎯 | Peso aprox |
+|--------------|--------------|---------------|----------------|------------|
+| **tiny**     | Muy bajo     | ⚡⚡⚡⚡         | Baja           | ~39 MB     |
+| **base**     | Bajo          | ⚡⚡⚡          | Aceptable      | ~74 MB     |
+| **small**    | Medio         | ⚡⚡           | Buena          | ~244 MB    |
+| **medium**   | Alto          | ⚡            | Muy buena      | ~769 MB    |
+| **large**    | Muy alto      | 🐢 (lento)     | Excelente      | ~1.5 GB    |
+
 ---
 
 ## 📂 Archivos generados por Whisper
@@ -113,5 +123,24 @@ Luego abrí el video con alguno de estos reproductores compatibles y elegí el a
 ¡Listo! Abrí tu video y seleccioná el idioma de subtítulos que prefieras.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
